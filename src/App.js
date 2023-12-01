@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CSVProcessor from './encuesta';
+import CSVProcessor from '../src/encuesta';
 import Home from './Home';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Download from './Download';
