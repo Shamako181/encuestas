@@ -1,0 +1,138 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.small-container{
+  width: 70%;
+  margin: 0 auto;
+}
+.extra-pad{
+  margin: 10px;
+}
+.center-widht{
+  width: 80%;
+  margin: 0 auto;
+}
+
+li{
+  list-style: none;
+}
+header{
+  background-color: cadetblue;
+}
+.logo{
+  width: 120px;
+}
+.extra-pad{
+  padding-top: 40px;
+}
+.float-left{
+  float: left;
+}
+.h-300{
+  height: 300px;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.bg-black{
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+
+}
+.text-white{
+    color:  white;
+}
+.text-black{
+    color:  black;
+}
+.bg-primary-orange{
+  background-color: #fec503;
+}
+.primary-orange{
+  color: #fec503;
+}
+.org-btn{
+  border: 1px solid #fec503;
+  color: #fec503;
+}
+.org-btn:hover{
+  background-color: #fec503;
+  color: white;
+}
+
+.light-grey{
+  color:#6c757d;
+}
+
+.bg-light-grey{
+  background-color: #6c757d;
+}
+
+.social-buttons-circle-dark-grey{
+  background:  #1a1d20;
+}
+
+/* img css */
+
+/* .testimonals-container img{
+  width:300px;
+  
+} */
+
+/* hero */
+.center{
+  text-align: center;
+}
+
+/*  Card hover */
+.move-up:hover{
+    background-color: #fec503;
+  color: white;
+    transition: all .5s;
+    transform : translateY(-10px);
+}
+
+.ng-mrg-t{
+  margin-top: -50px;
+}
+.e-pad{
+  margin: 10px 5px;
+}
